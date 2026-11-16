@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hose Connections Inc | Hydraulic Parts &amp; 24-Hour Repair in Hammond, IN</title>
+<meta name="description" content="Hydraulic parts sales, pneumatic equipment, and 24-hour hydraulic repair, 365 days a year, from Hammond, Indiana. Serving Chicagoland and the Great Lakes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+:root{
+  --primary:#B50101;--primary-d:#8f0101;--accent:#2B2B2B;--dark:#0A090A;--light:#F4F3F0;
+  --line:#dddad3;--muted:#5c5a57;--radius:0;
+  --display:'Oswald',Impact,'Arial Narrow',sans-serif;--body:'Open Sans',system-ui,-apple-system,sans-serif;
+  --wrap:1200px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{margin:0;font-family:var(--body);color:var(--accent);background:#fff;line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.08;margin:0 0 .5em;text-transform:uppercase;letter-spacing:.01em;overflow-wrap:anywhere;color:var(--dark)}
+h1{font-size:clamp(2.3rem,6.4vw,4.5rem)}
+h2{font-size:clamp(1.9rem,4vw,3rem)}
+h3{font-size:1.3rem}
+p{margin:0 0 1em}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(1.1rem,4vw,2rem)}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.16em;font-size:.82rem;font-weight:500;color:var(--primary);display:flex;align-items:center;gap:.6rem;margin-bottom:.9rem}
+.eyebrow::before{content:"";width:28px;height:3px;background:var(--primary)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-weight:500;font-size:1rem;padding:.95rem 1.6rem;border-radius:var(--radius);text-decoration:none;border:2px solid transparent;transition:background .2s,color .2s,border-color .2s;cursor:pointer}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-d)}
+.btn-ghost{border-color:rgba(255,255,255,.75);color:#fff}
+.btn-ghost:hover{background:#fff;color:var(--dark)}
+.btn-dark{background:var(--dark);color:#fff}
+.btn-dark:hover{background:var(--accent)}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* utility bar */
+.util{background:var(--dark);color:#cfcac2;font-size:.82rem}
+.util .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:.45rem;padding-bottom:.45rem}
+.util a{color:#fff;text-decoration:none;font-weight:700}
+.util .live{display:inline-flex;align-items:center;gap:.5rem}
+.util .dot{width:8px;height:8px;background:#e33;border-radius:50%;box-shadow:0 0 0 3px rgba(227,51,51,.25)}
+.util .addr{opacity:.85}
+
+/* nav */
+header.site{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 14px rgba(0,0,0,.05)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:76px}
+.logo img{height:52px;width:auto;object-fit:contain}
+.links{display:flex;align-items:center;gap:1.8rem}
+.links a{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.95rem;text-decoration:none;color:var(--dark);position:relative;padding:.3rem 0}
+.links a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:var(--primary);transition:width .2s}
+.links a:hover::after{width:100%}
+.nav .btn{padding:.7rem 1.1rem;font-size:.92rem}
+.toggle{display:none;background:var(--dark);color:#fff;border:0;width:46px;height:46px;border-radius:var(--radius);cursor:pointer;align-items:center;justify-content:center}
+.toggle span,.toggle span::before,.toggle span::after{display:block;width:20px;height:2px;background:#fff;position:relative;transition:transform .2s}
+.toggle span::before,.toggle span::after{content:"";position:absolute;left:0}
+.toggle span::before{top:-6px}.toggle span::after{top:6px}
+.toggle[aria-expanded="true"] span{background:transparent}
+.toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+.mobile{display:none;border-top:1px solid var(--line);background:#fff}
+.mobile a{display:block;padding:1rem clamp(1.1rem,4vw,2rem);font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;text-decoration:none;border-bottom:1px solid var(--line);color:var(--dark)}
+.mobile a.call{background:var(--primary);color:#fff;border:0}
+.mobile.open{display:block}
+
+/* hero */
+.hero{position:relative;color:#fff;background:var(--dark);overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,9,10,.92) 0%,rgba(10,9,10,.78) 45%,rgba(10,9,10,.4) 100%)}
+.hero .wrap{position:relative;z-index:1;padding-top:clamp(3.5rem,9vw,7.5rem);padding-bottom:clamp(3.5rem,9vw,7.5rem)}
+.hero-inner{max-width:720px}
+.hero h1{color:#fff}
+.hero h1 em{font-style:normal;color:#ff3b30}
+.hero .lead{font-size:clamp(1.02rem,1.6vw,1.2rem);color:#e7e3dc;max-width:600px;margin-bottom:1.8rem}
+.hero .eyebrow{color:#fff}
+.cta-row{display:flex;flex-wrap:wrap;gap:.8rem}
+.hero-stats{position:relative;z-index:1;background:var(--primary)}
+.hero-stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:1.3rem 1rem;border-left:1px solid rgba(255,255,255,.22)}
+.stat:last-child{border-right:1px solid rgba(255,255,255,.22)}
+.stat b{display:block;font-family:var(--display);font-size:clamp(1.3rem,2.4vw,1.8rem);font-weight:600;line-height:1.1;text-transform:uppercase}
+.stat span{font-size:.84rem;opacity:.9}
+
+/* sections */
+section{padding:clamp(3.5rem,8vw,6.5rem) 0}
+.head{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:end;margin-bottom:2.8rem}
+.head p{color:var(--muted);margin:0}
+
+/* services */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--line)}
+.pillar{padding:2.2rem 2rem;border-right:1px solid var(--line);background:#fff;position:relative}
+.pillar:last-child{border-right:0}
+.pillar::before{content:"";position:absolute;top:-1px;left:-1px;width:56px;height:4px;background:var(--primary)}
+.pillar .ico{width:44px;height:44px;color:var(--primary);margin-bottom:1.1rem}
+.pillar ul{list-style:none;padding:0;margin:1rem 0 0}
+.pillar li{padding:.5rem 0 .5rem 1.4rem;border-top:1px solid var(--line);position:relative;font-size:.95rem}
+.pillar li::before{content:"";position:absolute;left:0;top:1.05rem;width:8px;height:2px;background:var(--primary)}
+.pillar p{color:var(--muted);font-size:.96rem}
+
+.families{margin-top:3.5rem}
+.families h3{font-size:1.1rem;letter-spacing:.1em;color:var(--muted);margin-bottom:1rem}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.tile{background:var(--light);padding:1.4rem 1.2rem;display:flex;flex-direction:column;gap:.35rem;transition:background .2s,color .2s}
+.tile b{font-family:var(--display);text-transform:uppercase;font-size:1.15rem;font-weight:500;letter-spacing:.04em;color:var(--dark)}
+.tile span{font-size:.85rem;color:var(--muted)}
+.tile:hover{background:var(--dark)}
+.tile:hover b{color:#fff}.tile:hover span{color:#bbb}
+
+/* gallery */
+.gallery{background:var(--dark);color:#d9d5ce}
+.gallery h2{color:#fff}
+.gallery .head p{color:#b8b3ab}
+.gal{display:grid;grid-template-columns:1.25fr 1fr;gap:1rem}
+.frame{position:relative;overflow:hidden;border-radius:var(--radius);background:#1a181a;margin:0}
+.frame img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.frame:hover img{transform:scale(1.03)}
+.gal .frame{aspect-ratio:4/3}
+.frame figcaption{position:absolute;left:0;bottom:0;background:var(--primary);color:#fff;font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.82rem;padding:.5rem .9rem}
+.gal-note{margin-top:1.5rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;border-top:1px solid #2e2b2e;padding-top:1.5rem}
+.gal-note p{margin:0;max-width:640px}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.about .frame{aspect-ratio:3/4;max-width:460px}
+.about .lede{font-size:1.08rem}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:1.8rem}
+.why div{background:#fff;padding:1.3rem 1.3rem}
+.why h4{font-size:1.05rem;margin-bottom:.35rem;letter-spacing:.04em}
+.why p{font-size:.9rem;color:var(--muted);margin:0}
+.badges{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.4rem}
+.badge{border:1px solid var(--line);border-radius:var(--radius);padding:.45rem .8rem;font-size:.82rem;font-weight:600;background:var(--light)}
+
+/* area */
+.area{background:var(--light)}
+.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.rings{position:relative;aspect-ratio:1;max-width:440px;width:100%;margin:0 auto}
+.rings div{position:absolute;inset:0;margin:auto;border:1px solid #c9c4ba;border-radius:50%}
+.rings .r1{width:100%;height:100%;border-style:dashed}
+.rings .r2{width:66%;height:66%;border-color:#b9b3a8}
+.rings .r3{width:32%;height:32%;background:var(--primary);border:0;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-size:clamp(.8rem,2.4vw,1rem);line-height:1.2}
+.rings span{position:absolute;font-family:var(--display);text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:var(--muted);background:var(--light);padding:0 .4rem}
+.rings .l1{top:-.6rem;left:50%;transform:translateX(-50%)}
+.rings .l2{top:17%;left:50%;transform:translateX(-50%)}
+.area-list{list-style:none;padding:0;margin:1.4rem 0 0}
+.area-list li{display:flex;gap:1rem;padding:1rem 0;border-top:1px solid #d9d5cc}
+.area-list li:last-child{border-bottom:1px solid #d9d5cc}
+.area-list b{font-family:var(--display);text-transform:uppercase;font-weight:500;min-width:7.5rem;color:var(--dark);letter-spacing:.04em}
+
+/* contact */
+.contact{background:var(--primary);color:#fff;position:relative;overflow:hidden}
+.contact h2{color:#fff}
+.contact .eyebrow{color:#fff}.contact .eyebrow::before{background:#fff}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.contact p{color:#ffe1dd}
+.card{background:#fff;color:var(--accent);border-radius:var(--radius);padding:2rem}
+.card dl{margin:0}
+.card dt{font-family:var(--display);text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;color:var(--primary);margin-top:1.1rem}
+.card dt:first-child{margin-top:0}
+.card dd{margin:.2rem 0 0;font-weight:600;font-size:1.02rem}
+.card dd a{text-decoration:none}
+.card .phone{font-family:var(--display);font-size:2rem;font-weight:600;color:var(--dark)}
+.card .btn{width:100%;margin-top:1.5rem}
+
+/* footer */
+footer{background:var(--dark);color:#a9a49c;padding:3.5rem 0 1.5rem;font-size:.92rem}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.foot .word{font-family:var(--display);color:#fff;font-size:1.5rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.6rem}
+.foot .word b{color:#ff3b30;font-weight:600}
+footer h4{color:#fff;font-size:.95rem;letter-spacing:.12em;margin-bottom:.9rem}
+footer ul{list-style:none;padding:0;margin:0}
+footer li{margin-bottom:.45rem}
+footer a{text-decoration:none;color:#d9d5ce}
+footer a:hover{color:#fff}
+.legal{border-top:1px solid #262326;margin-top:2.5rem;padding-top:1.3rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem;font-size:.8rem}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+
+@media (max-width:1020px){
+  .links,.nav .btn{display:none}
+  .toggle{display:inline-flex}
+  .tiles{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:860px){
+  .head,.about-grid,.area-grid,.contact-grid,.foot{grid-template-columns:1fr}
+  .pillars{grid-template-columns:1fr}
+  .pillar{border-right:0;border-bottom:1px solid var(--line)}
+  .pillar:last-child{border-bottom:0}
+  .gal{grid-template-columns:1fr}
+  .hero-stats .wrap{grid-template-columns:1fr 1fr;padding:0}
+  .stat{border-left:0;border-right:0!important;border-bottom:1px solid rgba(255,255,255,.22)}
+  .stat:nth-child(odd){border-right:1px solid rgba(255,255,255,.22)!important}
+  .about .frame{max-width:100%;aspect-ratio:4/5}
+}
+@media (max-width:560px){
+  .util .addr{display:none}
+  .tiles{grid-template-columns:1fr 1fr}
+  .why{grid-template-columns:1fr}
+  .cta-row .btn{flex:1 1 100%}
+  .logo img{height:42px}
+  .hero::after{background:linear-gradient(180deg,rgba(10,9,10,.75),rgba(10,9,10,.9))}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .js .reveal{opacity:1;transform:none}
+  .frame:hover img{transform:none}
+}
+</style>
+</head>
+<body>
+
+<div class="util">
+  <div class="wrap">
+    <span class="live"><span class="dot" aria-hidden="true"></span>24-hour repair, 365 days a year: <a href="tel:+12198446570">(219) 844-6570</a></span>
+    <span class="addr">7940 New Jersey Ave, Hammond, IN 46323 &middot; Se habla español</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Hose Connections Inc home">
+      <img src="https://hoseconnectionsinc.com/wp-content/uploads/2020/04/HC-Logo.png" alt="Hose Connections Inc logo" width="200" height="60">
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#services">Sales &amp; Service</a>
+      <a href="#shop">The Shop</a>
+      <a href="#about">About</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="tel:+12198446570">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+      (219) 844-6570
+    </a>
+    <button class="toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span></button>
+  </div>
+  <nav class="mobile" id="mobile-menu" aria-label="Mobile">
+    <a href="#services">Sales &amp; Service</a>
+    <a href="#shop">The Shop</a>
+    <a href="#about">About</a>
+    <a href="#area">Service Area</a>
+    <a href="#contact">Contact</a>
+    <a class="call" href="tel:+12198446570">Call (219) 844-6570</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" style="padding:0">
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TUpr5QzMibevXB4oO6oVXZxQMLDxkyuy_N_AdRSBJfvTk681FBaZoJ1Xe7z9aLFTFAzeZT5rzXCS-ChJDCNZhDeOK88gW6tizEnLiTUsyeDmAWIlnhy6nv_vQRtoXR4EUvh6Sb=w1600-h1600" alt="Hydraulic hoses connected to a power unit" width="1600" height="1200" fetchpriority="high">
+    <div class="wrap">
+      <div class="hero-inner">
+        <p class="eyebrow">Hammond, Indiana &middot; Chicagoland</p>
+        <h1>Hydraulic parts and <em>24-hour repair</em> for the Great Lakes</h1>
+        <p class="lead">Pumps, cylinders, valves, filtration and seals on the shelf, plus trained technicians who maintain and repair hydraulic and pneumatic equipment around the clock, every day of the year.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="tel:+12198446570">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+            Call for Repair
+          </a>
+          <a class="btn btn-ghost" href="#services">Parts &amp; Services</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="wrap">
+        <div class="stat"><b>24 / 365</b><span>Repair availability</span></div>
+        <div class="stat"><b>Since 2000</b><span>Serving from Hammond, IN</span></div>
+        <div class="stat"><b>ISO-approved</b><span>Inventory on hand</span></div>
+        <div class="stat"><b>4.8 &#9733;</b><span>From 42 Google reviews</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="head reveal">
+        <div>
+          <p class="eyebrow">Sales &amp; Service</p>
+          <h2>Parts on the shelf. Techs on call.</h2>
+        </div>
+        <p>One counter for the components you need today, and one crew for the machine that went down tonight. Hydraulic and pneumatic, sold and serviced under the same roof.</p>
+      </div>
+
+      <div class="pillars reveal">
+        <article class="pillar">
+          <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="6" y="14" width="36" height="26"/><path d="M6 22h36M18 14V8h12v6"/></svg>
+          <h3>Parts Sales</h3>
+          <p>Hydraulic parts and pneumatic equipment from ISO-approved inventory.</p>
+          <ul>
+            <li>Pumps, cylinders and valves</li>
+            <li>Pneumatic equipment</li>
+            <li>Seals, seal kits and O-rings</li>
+          </ul>
+        </article>
+        <article class="pillar">
+          <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M30 8a10 10 0 0 0-9.5 13L8 33.5 14.5 40 27 27.5A10 10 0 0 0 40 18l-6 6-6-2-2-6 6-6a10 10 0 0 0-2-2z"/></svg>
+          <h3>Repair &amp; Maintenance</h3>
+          <p>Trained technicians for hydraulic and pneumatic systems, any hour of any day.</p>
+          <ul>
+            <li>24-hour repair, 365 days a year</li>
+            <li>Hydraulic and pneumatic maintenance</li>
+            <li>On-site filter service</li>
+          </ul>
+        </article>
+        <article class="pillar">
+          <svg class="ico" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M24 6c6 9 12 15 12 22a12 12 0 0 1-24 0c0-7 6-13 12-22z"/><path d="M18 30a6 6 0 0 0 6 6"/></svg>
+          <h3>Fluid &amp; Support</h3>
+          <p>Keep systems clean and running longer, with answers when you need them.</p>
+          <ul>
+            <li>Filtration and replacement elements</li>
+            <li>Oil analysis</li>
+            <li>Custom manufactured elements</li>
+            <li>Technical support</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="families reveal">
+        <h3>Browse by component</h3>
+        <div class="tiles">
+          <a class="tile" href="#contact" style="text-decoration:none"><b>Pumps</b><span>Sales &amp; repair</span></a>
+          <a class="tile" href="#contact" style="text-decoration:none"><b>Cylinders</b><span>Sales &amp; repair</span></a>
+          <a class="tile" href="#contact" style="text-decoration:none"><b>Valves</b><span>Sales &amp; repair</span></a>
+          <a class="tile" href="#contact" style="text-decoration:none"><b>Filtration</b><span>Elements &amp; on-site service</span></a>
+          <a class="tile" href="#contact" style="text-decoration:none"><b>Seals</b><span>Kits &amp; O-rings</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="shop">
+    <div class="wrap">
+      <div class="head reveal">
+        <div>
+          <p class="eyebrow">The Shop</p>
+          <h2>Inventory you can walk up to</h2>
+        </div>
+        <p>Bins of fittings and adapters across the floor and a counter staffed by people who know the parts. Come in, bring the part, leave with the match.</p>
+      </div>
+      <div class="gal reveal">
+        <figure class="frame">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAgBF1yXlJWgJ0qCTSEWiQv9nm9QOrQo7Me64jxbFqoUj8yAEawHLg4B10hbKwd-CSzEStjOBXT0hheA5wzdeI1eHpUilyDlVsna5Ff3xjYaC54uBNC2uAfUfS-wwG__UtyPt4cqGAwNw=w1600-h1600" alt="Rows of hydraulic adapter bins across the shop floor" width="1600" height="1200" loading="lazy">
+          <figcaption>Adapter inventory</figcaption>
+        </figure>
+        <figure class="frame">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q_MiZXcBPXfN7Pk0JZvasPlA6ng95dZXTucrmbyPVOkjrB_pV9kg-EUI8x-LD47hi8vZVUjizjpE-gbseggagmh9a7ND-zm23BJLE7HgL-zIbAsDrDdVOHn2Tb0nNw3NLum-3u1j7vnKE5=w1600-h1600" alt="Parts counter inside the Hose Connections shop" width="1600" height="1128" loading="lazy">
+          <figcaption>Counter service</figcaption>
+        </figure>
+      </div>
+      <div class="gal-note reveal">
+        <p>Not sure what you need? Our technical support team will help you identify the component and the right replacement.</p>
+        <a class="btn btn-primary" href="tel:+12198446570">Ask a Technician</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <figure class="frame reveal">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYwIhJSqO8gv1Wh7q1kkqkBfzwdDyBRjTQGCk55p7JzsmC_GQLTAaszYSkQNOPZ3gWp-UJgZX0m1JmqfpiZ2vlPBMcgevZyWnOXzhnh-w4g-52v8MTqvZcjptWr2tPdQvVEmI=w1600-h1600" alt="Hose Connections Inc brick storefront with black awning in Hammond, Indiana" width="1200" height="1600" loading="lazy">
+        <figcaption>7940 New Jersey Ave</figcaption>
+      </figure>
+      <div class="reveal">
+        <p class="eyebrow">Why Hose Connections</p>
+        <h2>Uptime is the whole job</h2>
+        <p class="lede">Since 2000, Hose Connections Inc. has sold and serviced hydraulic parts and pneumatic equipment from Hammond, Indiana. The approach hasn't changed: keep deep, ISO-approved inventory, put trained technicians on the work, and answer the phone at any hour.</p>
+        <div class="why">
+          <div><h4>Always on</h4><p>Repair available 24 hours a day, 365 days a year.</p></div>
+          <div><h4>Deep inventory</h4><p>ISO-approved parts stocked for faster turnarounds.</p></div>
+          <div><h4>Trained technicians</h4><p>Hydraulic and pneumatic maintenance and repair.</p></div>
+          <div><h4>Preventive care</h4><p>On-site filter service and oil analysis.</p></div>
+        </div>
+        <div class="badges">
+          <span class="badge">Lakeshore Chamber of Commerce member</span>
+          <span class="badge">Se habla español</span>
+          <span class="badge">4.8 &#9733; on Google (42 reviews)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="area" id="area">
+    <div class="wrap area-grid">
+      <div class="reveal">
+        <p class="eyebrow">Service Area</p>
+        <h2>Chicagoland and the Great Lakes</h2>
+        <p>Based just over the Illinois line in Hammond, we're positioned to reach plants, yards and job sites across the region when equipment can't wait.</p>
+        <ul class="area-list">
+          <li><b>Home base</b><span>7940 New Jersey Avenue, Hammond, IN</span></li>
+          <li><b>Core radius</b><span>50 miles around Chicago</span></li>
+          <li><b>Region</b><span>The Chicagoland area and the Great Lakes</span></li>
+        </ul>
+      </div>
+      <div class="rings reveal" aria-hidden="true">
+        <div class="r1"></div>
+        <div class="r2"></div>
+        <div class="r3">Hammond,<br>IN</div>
+        <span class="l1">Great Lakes</span>
+        <span class="l2">50 mi of Chicago</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Machine down? Call now.</h2>
+        <p>Repair is available 24 hours a day, 365 days a year. For parts, filtration, oil analysis or technical questions, call the shop or stop by the counter in Hammond.</p>
+        <div class="cta-row">
+          <a class="btn btn-dark" href="tel:+12198446570">Call (219) 844-6570</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=7940+New+Jersey+Ave+Hammond+IN+46323" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+      </div>
+      <div class="card reveal">
+        <dl>
+          <dt>Phone, 24 hours</dt>
+          <dd><a class="phone" href="tel:+12198446570">(219) 844-6570</a></dd>
+          <dt>Shop &amp; counter</dt>
+          <dd>7940 New Jersey Avenue<br>Hammond, IN 46323</dd>
+          <dt>Languages</dt>
+          <dd>English &middot; Español</dd>
+        </dl>
+        <a class="btn btn-primary" href="tel:+12198446570">Request Service</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot reveal">
+      <div>
+        <div class="word"><b>Hose</b> Connections Inc</div>
+        <p>Hydraulic parts sales, pneumatic equipment, and 24-hour hydraulic repair for Chicagoland and the Great Lakes.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#services">Sales &amp; Service</a></li>
+          <li><a href="#shop">The Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#area">Service Area</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach Us</h4>
+        <ul>
+          <li><a href="tel:+12198446570">(219) 844-6570</a></li>
+          <li>7940 New Jersey Ave<br>Hammond, IN 46323</li>
+          <li><a href="https://hoseconnectionsinc.com" rel="noopener">hoseconnectionsinc.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; Hose Connections Inc. All rights reserved.</span>
+      <span>Hammond, Indiana &middot; Se habla español</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.toggle'),m=document.getElementById('mobile-menu');
+  if(b&&m){
+    b.addEventListener('click',function(){
+      var o=b.getAttribute('aria-expanded')==='true';
+      b.setAttribute('aria-expanded',String(!o));
+      b.setAttribute('aria-label',o?'Open menu':'Close menu');
+      m.classList.toggle('open',!o);
+    });
+    m.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open menu');m.classList.remove('open');}
+    });
+  }
+  var els=document.querySelectorAll('.reveal');
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!('IntersectionObserver' in window)||reduce){
+    els.forEach(function(el){el.classList.add('in');});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+    });
+  },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
